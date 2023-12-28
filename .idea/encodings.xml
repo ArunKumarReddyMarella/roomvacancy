@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ADDRESS-SERVICE/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BOOKING-SERVICE/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MESSAGE-SERVICE/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ROOM-SERVICE/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/USER-SERVICE/src/main/java" charset="UTF-8" />
+  </component>
+</project>
