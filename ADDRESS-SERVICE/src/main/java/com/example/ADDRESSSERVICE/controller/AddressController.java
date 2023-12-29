@@ -51,13 +51,13 @@ public class AddressController {
 
     @PutMapping
     public ResponseEntity<Address> updateAddress(@RequestBody Address address){
-        Address createdAddress;
+        Address updatedAddress;
         try{
-            createdAddress = addressService.updateAddress(address);
+            updatedAddress = addressService.updateAddress(address);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
-        return ResponseEntity.ok().body(createdAddress);
+        return ResponseEntity.ok().body(updatedAddress);
     }
 
     @DeleteMapping("/{id}")
@@ -67,6 +67,6 @@ public class AddressController {
         }catch (Exception e){
             throw new RuntimeException(e);
         }
-        return ResponseEntity.ok().build();
+        return ResponseEntity.ok("deleted successfully");
     }
 }

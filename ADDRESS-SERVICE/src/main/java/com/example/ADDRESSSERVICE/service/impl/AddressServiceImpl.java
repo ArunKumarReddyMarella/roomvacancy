@@ -50,7 +50,6 @@ public class AddressServiceImpl implements AddressService {
     @Override
     public void deleteAddress(Integer id) {
         addressRepository.deleteById(id);
-
     }
 
 }
